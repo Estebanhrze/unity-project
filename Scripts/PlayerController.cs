@@ -2,55 +2,53 @@ using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
 
-
 public class PlayerController : MonoBehaviour
 {
-    public float playerJumpForce = 20f;
-    public float playerSpeed = 5f;
+    public float playerJumpForce = 1f;
+    public float playerSpeed = 10f;  
     public Sprite[] mySprites;
     private int index = 0;
 
     private Rigidbody2D myrigidbody2D;
-    private SpriteRendere mySpriteRenderer;
+    private SpriteRenderer mySpriteRenderer;
 
-    //public GameObject Bullet;
-    //public GameManager myGameManager;
-
-
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         myrigidbody2D = GetComponent<Rigidbody2D>();
-        mySpriteRenderer = GetComponent<mySpriteRenderer>();
-        startCoroutine(WalkCoRutine());
-        myGameManager = FindObjectOfType<GameManager>();
-        
+        mySpriteRenderer = GetComponent<SpriteRenderer>();   
+        StartCoroutine(WalkCoRutine());
     }
 
-        // Update is called once per frame
     void Update()
     {
-        if(Input.GetKeyDown(KeyCode.Space)){
-            myrigidbody2D.linearVelocity = new Vector2(myrigidbody2D.linearVelocity.x,playerJumpForce);
+        // Salto
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            myrigidbody2D.linearVelocity = new Vector2(myrigidbody2D.linearVelocity.x, playerJumpForce); 
         }
-        myrigidbody2D.linearVelocity = new Vector2(playerSpeed, myrigidbody2D.linearVelocity.y);
-        /*
-        if(Input.GetKeyDown(KeyCode.E)){
-            Instantiate(Bullet, transform.position, Quaternion.identity);
-        }*/
-    }
 
+        // Movimiento con teclas A/D
+        float moveInput = 0;
+        if (Input.GetKey(KeyCode.A)) moveInput = -1;
+        if (Input.GetKey(KeyCode.D)) moveInput = 1;
+        
+        myrigidbody2D.linearVelocity = new Vector2(moveInput * playerSpeed, myrigidbody2D.linearVelocity.y);
+    }
 
     IEnumerator WalkCoRutine()
     {
         yield return new WaitForSeconds(0.05f);
-        mySpriteRenderer.sprite = mySprites[index];
-        index++;
-        if (index == 6)
+        
+        if (mySprites != null && mySprites.Length > 0)
         {
-            index = 0;
+            mySpriteRenderer.sprite = mySprites[index];
+            index++;
+            if (index >= mySprites.Length)
+            {
+                index = 0;
+            }
         }
+        
         StartCoroutine(WalkCoRutine());
     }
-    
 }
