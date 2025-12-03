@@ -1,10 +1,16 @@
 fileFormatVersion: 2
-guid: d3c2171f054238440bcb2fbb86daf284
+guid: b39784eadbd44db4593db84b180666d6
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 5488370903067918852
-    second: moneda_0
+      213: 8613660383704231070
+    second: Fire-Mario-Running-Through-Fiery-Landscape-PNG_0
+  - first:
+      213: -6652141406114253300
+    second: Fire-Mario-Running-Through-Fiery-Landscape-PNG_1
+  - first:
+      213: 8900070771335256430
+    second: Fire-Mario-Running-Through-Fiery-Landscape-PNG_2
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,23 +106,67 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: moneda_0
+      name: Fire-Mario-Running-Through-Fiery-Landscape-PNG_0
       rect:
         serializedVersion: 2
-        x: 74
-        y: 90
-        width: 362
-        height: 341
-      alignment: 9
-      pivot: {x: 0.50585485, y: 0.50703305}
+        x: 3
+        y: 573
+        width: 276
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 40204f8f14c9a2c40800000000000000
-      internalID: 5488370903067918852
+      spriteID: e9cab8a5b7ed98770800000000000000
+      internalID: 8613660383704231070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire-Mario-Running-Through-Fiery-Landscape-PNG_1
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 1
+        width: 841
+        height: 805
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0674ecb2a8dea3a0800000000000000
+      internalID: -6652141406114253300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire-Mario-Running-Through-Fiery-Landscape-PNG_2
+      rect:
+        serializedVersion: 2
+        x: 951
+        y: 422
+        width: 205
+        height: 332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6956414637638b70800000000000000
+      internalID: 8900070771335256430
       vertices: []
       indices: 
       edges: []
@@ -125,7 +175,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 14d84002eebc8734c9cbcd353a2b6e37
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -135,7 +185,9 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      moneda_0: 5488370903067918852
+      Fire-Mario-Running-Through-Fiery-Landscape-PNG_0: 8613660383704231070
+      Fire-Mario-Running-Through-Fiery-Landscape-PNG_1: -6652141406114253300
+      Fire-Mario-Running-Through-Fiery-Landscape-PNG_2: 8900070771335256430
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

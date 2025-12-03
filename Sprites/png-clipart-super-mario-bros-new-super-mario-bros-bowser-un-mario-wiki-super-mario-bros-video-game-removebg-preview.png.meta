@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: d3c2171f054238440bcb2fbb86daf284
+guid: db03bc1d3ef537443991e68dba5cb725
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 5488370903067918852
-    second: moneda_0
+      213: -4342515776746692214
+    second: png-clipart-super-mario-bros-new-super-mario-bros-bowser-un-mario-wiki-super-mario-bros-video-game-removebg-preview_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,23 +100,23 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: moneda_0
+      name: png-clipart-super-mario-bros-new-super-mario-bros-bowser-un-mario-wiki-super-mario-bros-video-game-removebg-preview_0
       rect:
         serializedVersion: 2
-        x: 74
-        y: 90
-        width: 362
-        height: 341
-      alignment: 9
-      pivot: {x: 0.50585485, y: 0.50703305}
+        x: 5
+        y: 0
+        width: 494
+        height: 496
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 40204f8f14c9a2c40800000000000000
-      internalID: 5488370903067918852
+      spriteID: a81eb7f98e84cb3c0800000000000000
+      internalID: -4342515776746692214
       vertices: []
       indices: 
       edges: []
@@ -125,7 +125,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 14d84002eebc8734c9cbcd353a2b6e37
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      moneda_0: 5488370903067918852
+      png-clipart-super-mario-bros-new-super-mario-bros-bowser-un-mario-wiki-super-mario-bros-video-game-removebg-preview_0: -4342515776746692214
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
